@@ -650,6 +650,34 @@ import java.util.Scanner;
 //	}
 //}
 
+//Q18 optimize the code using Ternary operator and then fine the largest number ??
+
+
+//class Day1{
+//	public static void main(String[]args) {
+//		Scanner scan = new Scanner(System.in);
+//			
+//		int input1 = scan.nextInt();
+//		
+//		int input2 = scan.nextInt();
+//		
+//		int input3 =  scan.nextInt();
+//		
+//		int input4  = scan.nextInt();
+//		
+//		int w1 = input1 > input2?input1:input2;
+//		int w2 = input3 > input4?input3:input4;
+//		
+//		
+//		System.out.println(w1>w2?w1:w2);
+//		
+//	}
+//}
+
+//Q19  
+
+
+
 
 
 
