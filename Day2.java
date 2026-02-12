@@ -103,5 +103,22 @@ import java.util.Scanner;
 
 
 //Q4 Given three integer value 'n' a and B. write a program to print all the multiples of a and b till "n"??
+// import java.util.Scanner;
+
+// class Main {
+//     public static void main(String[] args) {
+//         Scanner scan = new Scanner(System.in);
+        
+//         int n = scan.nextInt();
+//         int a = scan.nextInt();
+//         int b = scan.nextInt();
+        
+//         for(int i = 1 ; i < = n ;i++){
+//             System.out.println()
+            
+//         }
+//     }
+// }
+
 
 
