@@ -146,5 +146,30 @@ import java.util.Scanner;
 // }
 
 
+//Q6)given an integer value n write a program to print number of  factors of n?
+
+// class Day2{
+
+// 	public static int numberOfFactors(int n) {
+// 		int count = 0;
+// 		for (int i=1;i<=n;i++) {
+// 			if(n%i==0) {
+// 				count++;
+// 			}
+// 		}
+// 		return count;	
+// 	}
+	
+// 	public static void main(String[]args) {
+// 		Scanner sc = new Scanner(System.in);
+		
+// 		System.out.println("Enter integer n: ");
+// 		int n = sc.nextInt();
+		
+// 		System.out.println(numberOfFactors(n));
+// 	}
+// }
+
+
 
 
