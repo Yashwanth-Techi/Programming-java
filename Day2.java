@@ -195,3 +195,34 @@ import java.util.Scanner;
 //	}
 //	
 //}
+// 
+
+
+
+
+
+//dammyi  problem???
+//class Day2{
+
+//	public static String prime(int n) {
+//		int count = 0;
+//		for (int i=1;i<=n;i++) {
+//			if(n%i==0) {
+//				return "Not prime";
+//			}
+//		}
+//		return "It is Prime";	
+//	}
+//	
+//	public static void main(String[]args) {
+//		Scanner sc = new Scanner(System.in);
+//		
+//		System.out.println("Enter integer n: ");
+//		int n = sc.nextInt();
+//		
+//		System.out.println(prime(n));
+//		
+//	}
+//	
+//}
+
