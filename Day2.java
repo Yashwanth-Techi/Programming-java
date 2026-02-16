@@ -197,16 +197,14 @@ import java.util.Scanner;
 //}
 // 
 
-
-
-
-
-//dammyi  problem???
+//another opproch
 //class Day2{
 
 //	public static String prime(int n) {
-//		int count = 0;
-//		for (int i=1;i<=n;i++) {
+//		if(n<=1){
+//      return false;
+//     }
+//		for (int i=1;i*i<=n;i++) {
 //			if(n%i==0) {
 //				return "Not prime";
 //			}
@@ -225,4 +223,5 @@ import java.util.Scanner;
 //	}
 //	
 //}
+
 
