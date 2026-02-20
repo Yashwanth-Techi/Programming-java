@@ -103,125 +103,159 @@ import java.util.Scanner;
 
 
 //Q4 Given three integer value 'n' a and B. write a program to print all the multiples of a and b till "n"??
-// import java.util.Scanner;
-
-// class Main {
-//     public static void main(String[] args) {
-//         Scanner scan = new Scanner(System.in);
-        
-//         int n = scan.nextInt();
-//         int a = scan.nextInt();
-//         int b = scan.nextInt();
-        
-//         for(int i = 1 ; i < = n ;i++){
-//             System.out.println()
-            
-//         }
-//     }
-// }
 
 
-//Q5) given an integer n write a program to print all the factors of n?/
-
-// class Day2{
-// 	public static void allFactors(int n) {
-		
-// 		for (int i=1;i<=n;i++) {
-// 			if(n%i==0) {
-// 				System.out.println(i);
-// 			}
-// 		}
-		
-// 	}
-	
-// 	public static void main(String[]args) {
-// 		Scanner sc = new Scanner(System.in);
-		
-// 		System.out.println("Enter integer n: ");
-// 		int n = sc.nextInt();
-		
-// 		allFactors(n);
-// 	}
-	
-// }
+//Given intiger value 'n' write program to print the multipication table of n till 10 ??
 
 
-//Q6)given an integer value n write a program to print number of  factors of n?
 
-// class Day2{
+//Q9) given two integer value "n" & "m" write a program to print all the prime number b/w  "n" & "m"??/
 
-// 	public static int numberOfFactors(int n) {
-// 		int count = 0;
-// 		for (int i=1;i<=n;i++) {
-// 			if(n%i==0) {
-// 				count++;
-// 			}
-// 		}
-// 		return count;	
-// 	}
-	
-// 	public static void main(String[]args) {
-// 		Scanner sc = new Scanner(System.in);
-		
-// 		System.out.println("Enter integer n: ");
-// 		int n = sc.nextInt();
-		
-// 		System.out.println(numberOfFactors(n));
-// 	}
-// }
-
-//Q6)given an integer value n write a program to check whether n is prime or not!...
 
 //class Day2{
+//	
+//	
+//	public static void  PrimeBetween(int n,int m){
+//		
+//		for(int i=2;i<m;i++) {
+//			if(checkPrime(i)) {
+//				System.out.print(i+" ");
+//			}
+//		}
+//		
+//	}
+//	public static  boolean checkPrime(int n) {
+//		
+//		if(n<=1) {
+//			return false;
+//		}
+//		for(int i=2;i*i<=n;i++) {
+//			if(n%i==0) {
+//				return false;
+//			}
+//		}
+//		return true;
+//	}
+//	
+//	
+//	public static void main(String[]args) {
+//		Scanner sc=new Scanner(System.in);
+//		
+//		System.out.print("enter the integer n: ");
+//		int n= sc.nextInt();
+//		System.out.print("enter the ineger m: ");
+//		int m=sc.nextInt();
+//		
+//		PrimeBetween(n,m);
+//		
+//		
+//	}
+//}
 
-//	public static String prime(int n) {
+
+//Q10) given an integer value "n" write a program to print the first n prime numbers??
+
+//class Day2{
+//	
+//	public static void PrintPrime(int n){
+//		
 //		int count = 0;
-//		for (int i=1;i<=n;i++) {
-//			if(n%i==0) {
-//				return "Not prime";
+//		for(int i=2;count<n;i++) {
+//			if(checkPrime(i)) {
+//				System.out.print(i+" ");
+//				count++;
 //			}
 //		}
-//		return "It is Prime";	
+//		
 //	}
+//	
+//	public static boolean checkPrime(int n){
+//		
+//		if(n<=1) {
+//			return false;
+//		}
+//		for(int i=2;i*i<=n;i++) {
+//			if(n%i==0) {
+//				return false;
+//			}
+//		}
+//		return true;
+//		
+//	}
+//	
 //	
 //	public static void main(String[]args) {
-//		Scanner sc = new Scanner(System.in);
 //		
-//		System.out.println("Enter integer n: ");
+//		Scanner sc=new Scanner(System.in);
+//		
+//		
+//		System.out.println("enter the integer n: ");
 //		int n = sc.nextInt();
 //		
-//		System.out.println(prime(n));
+//		PrintPrime(n);
 //		
 //	}
-//	
 //}
-// 
 
-//another opproch
+
+//Q11)  given an integer n & x . write a program to print n till x???
+
+
+
 //class Day2{
-
-//	public static String prime(int n) {
-//		if(n<=1){
-//      return false;
-//     }
-//		for (int i=1;i*i<=n;i++) {
-//			if(n%i==0) {
-//				return "Not prime";
+//	
+//	
+//	public static void multiples(int x, int n){
+//		for(int i=1;i<=x;i++) {
+//			if(i%n==0) {
+//				System.out.println(i);
 //			}
 //		}
-//		return "It is Prime";	
 //	}
-//	
 //	public static void main(String[]args) {
-//		Scanner sc = new Scanner(System.in);
 //		
-//		System.out.println("Enter integer n: ");
+//		Scanner sc=new Scanner(System.in);
+//		int x=sc.nextInt();
+//		int n=sc.nextInt();
+//		
+//		
+//		multiples(x,n);
+//	}
+//}
+
+
+//optimize
+
+
+//class Day2{
+//	
+//	public static void multiples(int x, int n){
+//		
+//		for(int i=n;i<=x;i=i+n) {
+//			
+//			System.out.println(i);
+//			
+//		}
+//	}
+//	public static void main(String[]args) {
+//		
+//		Scanner sc=new Scanner(System.in);
+//		int x = sc.nextInt();
 //		int n = sc.nextInt();
 //		
-//		System.out.println(prime(n));
-//		
+//		multiples(x,n);
 //	}
-//	
 //}
+
+
+//Q12)
+
+
+
+
+
+
+
+
 
 
