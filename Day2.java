@@ -298,7 +298,53 @@ import java.util.Scanner;
 // 	}
 // }
 
+/12.1) optimaize code reverse the answer
 
+//class Day2{
+//
+//public static void allCommonMultiples(int a , int b){
+//	
+//	for(int i=n2;i>0;i--) {
+//		if(a%i==0 && b%i==0) {
+//			System.out.println(i);
+//		}
+//	}
+//}
+//public static void main(String[]args) {
+//	Scanner sc=new Scanner(System.in);
+//	
+//	int n1=sc.nextInt();
+//	int n2=sc.nextInt();
+//	
+//	allCommonMultiples(n1,n2);
+//	 
+//}
+//}
+
+
+// Q12.2) print only one factor number that mltiple of a & b
+
+//class Day2{
+//
+//public static void allCommonMultiples(int a , int b){
+//	
+//	for(int i=1;i<a;i++) {
+//		if(a%i==0 && b%i==0) {
+//			System.out.println(i);
+//			break;
+//		}
+//	}
+//}
+//public static void main(String[]args) {
+//	Scanner sc=new Scanner(System.in);
+//	
+//	int n1=sc.nextInt();
+//	int n2=sc.nextInt();
+//	
+//	allCommonMultiples(n1,n2);
+//	 
+//}
+//}
 
 
 
