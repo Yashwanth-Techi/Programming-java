@@ -245,10 +245,59 @@ import java.util.Scanner;
 //		
 //		multiples(x,n);
 //	}
+//
+
+
+//Q12) given three integer value n,a,&b write a program to print the first n common multiple of a & b??
+
+//class Day2{
+//	
+//	public static void firstCommonMultiples(int n, int a, int b){
+//		
+//		int count = 0;
+//		for(int i=1;count<n;i++) {
+//			if(i%a==0 && i%b==0) {
+//				System.out.println(i);
+//				count++;
+//			}
+//		}
+//	}
+//	public static void main(String[]args) {
+//		Scanner sc=new Scanner(System.in);
+//		
+//		int n=sc.nextInt();
+//		int a=sc.nextInt();
+//		int b=sc.nextInt();
+//		
+//		
+//		firstCommonMultiples(n,a,b);
+//	
+//	}
 //}
 
+//Q13)given two intiger value n1 & n2 write a program to print all the common factors  of both n1 & n2??
 
-//Q12)
+// class Day2{
+// 	public static void allCommonMultiples(int a , int b){
+		
+// 		for(int i=1;i<a;i++) {
+// 			if(a%i==0 && b%i==0) {
+// 				System.out.println(i);
+// 			}
+// 		}
+// 	}
+
+// 	public static void main(String[]args) {
+// 		Scanner sc=new Scanner(System.in);
+		
+// 		int n1=sc.nextInt();
+// 		int n2=sc.nextInt();
+		
+// 		allCommonMultiples(n1,n2);
+		
+// 	}
+// }
+
 
 
 
