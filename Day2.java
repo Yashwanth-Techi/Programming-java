@@ -245,7 +245,7 @@ import java.util.Scanner;
 //		
 //		multiples(x,n);
 //	}
-//
+//}
 
 
 //Q12) given three integer value n,a,&b write a program to print the first n common multiple of a & b??
@@ -277,28 +277,29 @@ import java.util.Scanner;
 
 //Q13)given two intiger value n1 & n2 write a program to print all the common factors  of both n1 & n2??
 
-// class Day2{
-// 	public static void allCommonMultiples(int a , int b){
-		
-// 		for(int i=1;i<a;i++) {
-// 			if(a%i==0 && b%i==0) {
-// 				System.out.println(i);
-// 			}
-// 		}
-// 	}
+//class Day2{
+//	
+//	public static void allCommonMultiples(int a , int b){
+//		
+//		for(int i=1;i<a;i++) {
+//			if(a%i==0 && b%i==0) {
+//				System.out.println(i);
+//			}
+//		}
+//	}
+//	public static void main(String[]args) {
+//		Scanner sc=new Scanner(System.in);
+//		
+//		int n1=sc.nextInt();
+//		int n2=sc.nextInt();
+//		
+//		allCommonMultiples(n1,n2);
+//		 
+//	}
+//}
 
-// 	public static void main(String[]args) {
-// 		Scanner sc=new Scanner(System.in);
-		
-// 		int n1=sc.nextInt();
-// 		int n2=sc.nextInt();
-		
-// 		allCommonMultiples(n1,n2);
-		
-// 	}
-// }
 
-/12.1) optimaize code reverse the answer
+//12.1) optimaize code reverse the answer
 
 //class Day2{
 //
@@ -345,6 +346,33 @@ import java.util.Scanner;
 //	 
 //}
 //}
+
+
+//13 given two intiger value n1 & n2 write a program to print the least common mltiple of n1 & n2??
+
+// class Day2{
+	 
+// 	public static void listCommonMultiples(int n1 , int n2 ) {
+		
+// 		for(int i=1;true;i++) {
+// 			if(i%n1==0 && i%n2==0) {
+// 				System.out.print(i);
+// 				break;
+// 			}
+// 		}
+// 	}
+// 	public static void main(String[]args) {
+// 		Scanner sc=new Scanner(System.in);
+		
+// 		int n1 = sc.nextInt();
+// 		int n2 = sc.nextInt();
+		
+// 		listCommonMultiples(n1,n2);
+// 	}
+// }
+
+
+
 
 
 
