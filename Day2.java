@@ -348,37 +348,284 @@ import java.util.Scanner;
 //}
 
 
-//13 given two intiger value n1 & n2 write a program to print the least common mltiple of n1 & n2??
+//13) given two intiger value n1 & n2 write a program to print the least common mltiple of n1 & n2??
 
-// class Day2{
-	 
-// 	public static void listCommonMultiples(int n1 , int n2 ) {
-		
-// 		for(int i=1;true;i++) {
-// 			if(i%n1==0 && i%n2==0) {
-// 				System.out.print(i);
-// 				break;
-// 			}
-// 		}
-// 	}
-// 	public static void main(String[]args) {
-// 		Scanner sc=new Scanner(System.in);
-		
-// 		int n1 = sc.nextInt();
-// 		int n2 = sc.nextInt();
-		
-// 		listCommonMultiples(n1,n2);
-// 	}
-// }
+//class Day2{
+//	 
+//	public static void listCommonMultiples(int n1 , int n2 ) {
+//		
+//		for(int i=1;true;i++) {
+//			if(i%n1==0 && i%n2==0) {
+//				System.out.print(i);
+//				break;
+//			}
+//		}
+//	}
+//	public static void main(String[]args) {
+//		Scanner sc=new Scanner(System.in);
+//		
+//		int n1 = sc.nextInt();
+//		int n2 = sc.nextInt();
+//		
+//		listCommonMultiples(n1,n2);
 
-
-
+//	}
+//}
 
 
+// Reverse String 
+
+//class Day2{
+//	public static void main(String[]args) {
+//		String str = "Hello";
+//		
+//		String rev = "";
+//		
+//		for(int i=str.length()-1;i>=0;i--) {
+//			rev = rev + str.charAt(i);
+//		}
+//		System.out.println(rev);
+//	}
+//}
 
 
+// check palindrom 
+
+//class Day2{
+//	public static void main(String[]args) {
+//		Scanner sc = new Scanner(System.in);
+//		
+//		String str = sc.nextLine();
+//		String rev="";
+//		
+//		for(int i=str.length()-1;i>=0;i--) {
+//			rev = rev+str.charAt(i);
+//		}
+//		if(str.equals(rev)) {
+//			System.out.println("it is palindrom");
+//		}
+//		else
+//		{
+//			System.out.println("it is not palindrom");
+//		}
+//		
+//		
+//	}
+//}
 
 
+// Fibonochii
+
+//class Day2{
+//	public static void main(String[]args) {
+//		Scanner sc = new Scanner(System.in);
+//		
+//		int  n = sc.nextInt();
+//		
+//		int a=0,b=1;
+//		
+//		for(int i=1;i<=n;i++) {
+//			System.out.print(a+" ");
+//			int next = a+b;
+//			a=b;
+//			b=next;
+//		}
+//		
+//	}
+//}
 
 
+//factorial number
 
+//class Day2{
+//	public static void main(String[]args) {
+//		int n=5,fact=1;
+//		
+//		for(int i=1;i<=n;i++) {
+//			fact*=i;
+//		}
+//		
+//		System.out.println(fact);
+//	}
+//}
+
+
+//swap 2 numbers
+
+//class Day2{
+//	public static void main(String[]args) {
+//		int a=10,b=20;
+//		
+//		a = a + b;
+//		b= a - b;
+//		a = a - b;
+//		
+//		System.out.println(a+" "+b);
+//		
+//	}
+//}
+
+
+//Find Largest Element in Array
+
+//class Day2{
+//	public static void main(String[]args) {
+//		int[] arr = {1,2,4,3};
+//		
+//		int max=arr[0];
+//		
+//		for(int i=0;i<arr.length;i++) {
+//			if(arr[i]>max) {
+//				max = arr[i];
+//			}
+//		}
+//		System.out.println(max);
+//	}
+//}
+
+//check prime number
+
+//class Day2{
+//	public static void main(String[]args) {
+//		int n = 7;
+//		int count = 0;
+//		
+//		for(int i=1;i<=n;i++) {
+//			if(n%i==0) {
+//				count++;
+//			}
+//		}
+//		if(count==2) {
+//			System.out.println(n+" prime");
+//		}
+//		else
+//		{
+//			System.out.println(n+" not! prime");
+//		}
+//	}
+//}
+
+
+//count charecter in string
+//class Day2{
+//	public static void main(String[]args) {
+//		String str="ganapathi";
+//		
+//		System.out.println(str.length());
+//	}
+//}
+
+//remove dupicate from array
+
+//class Day2{
+//	public static void main(String[]args) {
+//		
+//		int[] arr= {1,2,3,4,4};
+//		
+//		int temp=0;
+//		
+//		for(int i=0;i<arr.length;i++) {
+//			for(int j=i+1;j<arr.length;j++) {
+//				if(arr[i]==arr[j]) {
+//					arr[j]=-1;
+//				}
+//			}
+//		}
+////		System.out.println(temp);
+//	}
+//}
+
+//find second larger value 
+//
+//class Day2{
+//	public static void main(String[]args) {
+//		
+//		int[] arr= {10,20,40,30,50};
+//		int larger=0,second=0;
+//		
+//		for(int i=0;i<arr.length;i++) {
+//			if(arr[i]>larger) {
+//				second = larger;
+//				larger = arr[i];
+//			}
+//		}
+//		System.out.print(second);
+//		
+//	}
+//}
+
+//
+
+//class Day2{
+//	public static void main(String[]args) {
+//		int[] arr= {10,20,30,50,40};
+//		int larger=0,second=0;
+//		
+//		for(int i=0;i<arr.length;i++) {
+//			if(arr[i]>larger) {
+//				second=larger;
+//				larger=arr[i];
+//			}
+//		}
+//		System.out.print(second);
+//		
+//	}
+//}
+
+
+//class Day2{
+//	public static void main(String[]args) {
+//		int arr[] = {10, 20, 60, 50};
+//		int larger = 0,second = 0;
+//		
+//		for(int i=0;i<arr.length;i++) {
+//			if(arr[i]>larger) {
+//				second = larger;
+//				larger = arr[i];
+//			}
+//			else if(arr[i]>second && arr[i]!=larger) {
+//				second = arr[i];
+//			}
+//			
+//		}
+//
+//		    System.out.print(second);
+//	}
+//}
+
+
+//class Day2{
+//	public static void main(String[]args) {
+//		int arr[]={5,2,9,1};
+//		
+//		
+//
+//		for(int i=0;i<arr.length;i++){
+//		    for(int j=i+1;j<arr.length;j++){
+//		        if(arr[i]>arr[j]){
+//		            int temp=arr[i];
+//		            arr[i]=arr[j];
+//		            arr[j]=temp;
+//		            
+//		        }
+//		    }
+//		    
+//		}
+//	}
+//}
+
+//duplicate charecter 
+//
+//class Day2{
+//	public static void main(String[]args) {
+//		String str = "programmer";
+//		
+//		for(int i=1;i<str.length();i++) {
+//			for(int j=i+1;j<str.length();j++) {
+//				if(str.charAt(i)==str.charAt(j)) {
+//					System.out.print(str.charAt(j));
+//				}
+//			}
+//		}
+//	}
+//}
