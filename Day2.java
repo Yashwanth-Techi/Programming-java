@@ -399,6 +399,132 @@ import java.util.Scanner;
 //}
 
 
+// optimaized code 
+
+//class Day2{
+//	
+//	public static int countDigits(int n){
+//		
+//		int count  = 0 ;
+//		
+//		if(n == 0) {
+//			return 1;
+//		}
+//		while(n>0) {
+//			n = n/10;
+//			count++;
+//		}
+//		return count;
+//	}
+//	public static void main(String[]args) {
+//		
+//		Scanner sc = new Scanner(System.in);
+//		
+//		int ip = sc.nextInt();
+//		
+//		int outPut = countDigits(ip);
+//		
+//		System.out.println(outPut);
+//		
+//	}
+//}
+
+ //15) Given an integer value n. Write a program to print the sum of all digits in n.
+
+//class Day2{
+//	
+//	public static int sumofAll(int n){
+//		
+//		int sum = 0,rem = 0;
+//		
+//		
+//		while(n>0) {
+//			rem = n%10;
+//			sum = sum + rem;
+//			n = n/10;
+//		}
+//		return sum;
+//		
+//	}
+//	public static void main(String[]args) {
+//		
+//		Scanner sc = new Scanner(System.in);
+//		
+//		int ip = sc.nextInt();
+//		
+//		int op = sumofAll(ip);
+//		System.out.println(op);
+//		
+//		
+//	}
+//}
+
+
+//16) given an intiger value n Write a program to print n in reverse order
+
+//class Day2{
+//	
+//	public static int reverse(int n){
+//		
+//		int rev = 0, last = 0;
+//		
+//		while(n>0) {
+//			last = n%10;
+//			rev = rev * 10 + last;
+//			n = n/10;
+//		}
+//		return rev;
+//	}
+//	
+//	public static void main(String[]args) {
+//		
+//		Scanner sc = new Scanner(System.in);
+//		
+//		int ip = sc.nextInt();
+//		int op = reverse(ip);
+//		System.out.println(op);
+//		
+//	}
+//}
+
+//check the given number is palindrom or not 
+
+//class Day2{
+//	
+//	public static int palindrom(int n) {
+//		
+//		int rev = 0,last=0;
+//		
+//		while(n>0) {
+//			
+//			last = n%10;
+//			rev  = rev * 10 + last;
+//			n = n/10;
+//		}
+//		return rev;
+//	}
+//	public static void main(String[]args) {
+//		Scanner sc = new Scanner(System.in);
+//		
+//		int ip = sc.nextInt();
+//		
+//		int op = palindrom(ip);
+//		
+//		if(ip==op){
+//			System.out.println("palindrom");
+//		}
+//		else
+//		{
+//			System.out.println("Not palindrom");
+//		}
+//		
+//		
+//	}
+//}
+
+
+
+
 
 
 
