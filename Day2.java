@@ -523,6 +523,58 @@ import java.util.Scanner;
 //}
 
 
+//17) given two integer value n1 & n2 write a program to print all the Armstrong numbers in the range n1 & n2??
+
+
+//class Day2{
+//	
+//	public static int countDigits(int n){
+//		int count = 0;
+//		while (n > 0) {
+//			n = n / 10;
+//			count++;
+//		}
+//		return count;
+//	}
+//	
+//	public static void checkArmstrong(int n) {
+//		
+//		int count = countDigits(n);
+//		int last = 0;
+//		int arm = 0;
+//		int temp = n;
+//		
+//		while (n > 0) {
+//			last  = n%10;
+//			arm = arm+(int)Math.pow(last, count);
+//			n = n/10;
+//		}
+//		
+//		if (temp == arm) {
+//			System.out.println("Armstrong");
+//		}
+//		else
+//		{
+//			System.out.println("Not Armstrong");
+//		}
+//		
+//		
+//	}
+//	public static void main(String[]args) {
+//		
+//		Scanner sc = new Scanner(System.in);
+//		
+//		int inp = sc.nextInt();
+//		
+//		checkArmstrong(inp);
+//	}
+//}
+
+
+
+
+
+
 
 
 
