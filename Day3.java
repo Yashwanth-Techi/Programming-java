@@ -53,6 +53,7 @@ import java.util.Scanner;
 //}
 
 
+
 //2) print all the Elements present in the even & odd index??
 
 //class Day3{
@@ -74,6 +75,92 @@ import java.util.Scanner;
 //				System.out.print("Odd:- "+arr[i]+" ");
 //			}
 //		}
+//	}
+//}
+
+
+// 3) write a program to  traversel from starting till "mid" of the array??
+//
+//class Day3{
+//	public static void main(String[]args) {
+//		
+//		Scanner sc = new Scanner(System.in);
+//		
+//		int n = sc.nextInt();
+//		
+//		int[] arr = new int[n];
+//		
+//		for(int i=0;i<arr.length;i++){
+//			
+//			arr[i] = sc.nextInt();
+//		}
+//		
+//		for(int i=0;i<arr.length/2;i++) {
+//			System.out.print(arr[i]+" ");
+//		}
+//	}
+//}
+
+
+// 4)write a program to traversel the array from "mid" to "till end"??
+//class Day3{
+//	public static void main(String[]args) {
+//		Scanner sc = new Scanner(System.in);
+//		
+//		int n = sc.nextInt();
+//		
+//		int[] arr = new int[n];
+//		
+//		for(int i=0;i<arr.length;i++) {
+//			arr[i] = sc.nextInt();
+//			
+//		}
+//		
+//		for(int i=arr.length/2;i<arr.length;i++) {
+//			System.out.print(arr[i]+" ");
+//		}
+//	}
+//}
+
+
+//5) write a program to traversel the array from last to till mid??
+
+//class Day3{
+//	public static void main(String[]args) {
+//		Scanner sc = new Scanner(System.in);
+//		
+//		int n = sc.nextInt();
+//		
+//		int[] arr=new int[n];
+//		
+//		for(int i=0;i<arr.length;i++) {
+//			arr[i] = sc.nextInt();
+//		}
+//		
+//		for(int i=arr.length-1;i>=arr.length/2;i--) {
+//			System.out.print(arr[i]+" ");
+//		}
+//		
+//	}
+//}
+
+//6) write a program to traversel the array from mid to start ??
+
+//class Day3{
+//	public static void main(String[]args) {
+//		Scanner sc = new Scanner(System.in);
+//		
+//		int n = sc.nextInt();
+//		
+//		int[] arr= new int[n];
+//		
+//		for(int i=0;i<arr.length;i++) {
+//			arr[i] = sc.nextInt();
+//		}
+//		for(int i=arr.length/2;i>=0;i--) {
+//			System.out.print(arr[i]+" ");
+//		}
+//		
 //	}
 //}
 
