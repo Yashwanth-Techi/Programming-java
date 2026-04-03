@@ -164,3 +164,160 @@ import java.util.Scanner;
 //	}
 //}
 
+//7) GIVEN AN ARRAY OF AN INTIGERS. WRITE A PROGRAM TO PRINT ALL SUM OF THE ELIMENTS PRESENT IN THE ARRAY??
+
+//class Day3{
+//	public static int sumOfArray(int[] arr){
+//		int sum = 0;
+//		for(int i=0;i<arr.length;i++) {
+//			sum += arr[i];
+//		}
+//		return sum;
+//	}
+//	public static void main(String[]args) {
+//		Scanner sc = new Scanner(System.in);
+//		
+//		int n = sc.nextInt();
+//		
+//		int[] arr=new int[n];
+//		
+//		for(int i=0;i<arr.length;i++) {
+//			arr[i] = sc.nextInt();
+//		}
+//		
+//		
+//		int output = sumOfArray(arr);
+//		
+//		System.out.print(output);
+//
+//	}
+//}
+
+// 8) Given an intigers write a program to print  product of the elements in Array??
+
+//class Day3{
+//	
+//	public static int productOfElements(int[] arr) {
+//		int pro = 1;
+//		
+//		for(int i=0;i<arr.length;i++) {
+//			pro *= arr[i];
+//		}
+//		return pro;
+//	}
+//	
+//	public static void main(String[]args) {
+//		Scanner sc = new Scanner(System.in);
+//		
+//		int n = sc.nextInt();
+//		
+//		int[] arr= new int[n];
+//		
+//		for(int i=0;i<arr.length;i++) {
+//			arr[i] = sc.nextInt();
+//		}
+//		
+//		int result = productOfElements(arr);
+//		System.out.println(result);
+//	}
+//}
+
+
+//9) Given an intigers. write a program to print larger element present in an array??
+
+//class Day3{
+//	
+//	public static int largerNumber(int[]arr){
+//		
+//		int max = 0 ;
+//		for(int i=0;i<arr.length;i++) {
+//			
+//				if (arr[i]>max) {
+//					max = arr[i];	
+//				}
+//		}
+//		return max;
+//	}
+//	public static void main(String[]args) {
+//		Scanner sc = new Scanner(System.in);
+//		
+//		int n = sc.nextInt();
+//		
+//		int[] arr=new int[n];
+//		
+//		for(int i=0;i<arr.length;i++) {
+//			arr[i] = sc.nextInt();
+//		}
+//		
+//		
+//		int output = largerNumber(arr);
+//		System.out.print(output);
+//		
+//	}
+//}
+
+
+//optimized solution
+
+//	class Day3{
+//		
+//		public static int largerElement(int[] arr) {
+//			int res = Integer.MIN_VALUE;
+//			
+//			for(int i=0;i<arr.length;i++) {
+//				if(arr[i] > res) {
+//					res = arr[i];
+//				}
+//			}
+//			return res;
+//		}
+//	
+//	public static void main(String[]args){
+//		
+//		Scanner sc = new Scanner(System.in);
+//		
+//		int n=sc.nextInt();
+//		int[]arr = new int[n];
+//		
+//		for(int i=0;i<arr.length;i++) {
+//			arr[i] = sc.nextInt();
+//	}
+//		
+//		int output = largerElement(arr);
+//		System.out.print(output);
+//		
+//	}
+//}
+
+//10) Given an 	array of the integers. write a program to print the index of the largest element present in the array ??
+
+//class Day3{
+//	
+//	public static int indexOfLargerElement(int[] arr) {
+//		int max = Integer.MIN_VALUE;
+//		int index = 0;
+//		
+//		for(int i=0;i<arr.length;i++) {
+//			if(arr[i]>max) {
+//				max =  arr[i];
+//				index = i;
+//			}
+//		}
+//		return index;
+//	}
+//	public static void main(String[]args) {
+//		Scanner sc = new Scanner(System.in);
+//		
+//		int n = sc.nextInt();
+//		
+//		int[] arr=new int[n];
+//		
+//		for(int i=0;i<arr.length;i++) {
+//			arr[i] = sc.nextInt();
+//		}
+//		
+//		int output = indexOfLargerElement(arr);
+//		System.out.print(output);
+//	}
+//}
+
